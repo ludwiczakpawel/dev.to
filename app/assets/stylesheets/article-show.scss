@@ -59,6 +59,10 @@
   cursor: pointer;
   transition: 0.3s all ease;
   border-radius: 50px;
+  
+  &:hover {
+    z-index: 201;
+  }
 
   @media (max-width: $breakpoint-m) {
     bottom: 68px;
