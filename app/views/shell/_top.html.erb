@@ -25,6 +25,7 @@
           max-width: 1250px;
         }
       </style>
+      <%= stylesheet_link_tag "tailwind" %>
       <% unless user_signed_in? %>
         <%= javascript_packs_with_chunks_tag "base", "Search", defer: true %>
       <% end %>

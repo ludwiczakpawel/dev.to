@@ -177,3 +177,5 @@ group :test do
   gem "webmock", "~> 3.11", require: false # WebMock allows stubbing HTTP requests and setting expectations on HTTP requests
   gem "zonebie", "~> 0.6.1" # Runs your tests in a random timezone
 end
+
+gem "tailwindcss-rails", "~> 0.1.0"
